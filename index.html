@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TBANK - Fintech + API Pagamentos | Ecossistema T</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <div class="logo">
+                    <h1 class="logo__text">TBANK</h1>
+                    <span class="logo__subtitle">Fintech + API Pagamentos</span>
+                </div>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li><a href="#servicos" class="nav__link">Serviços</a></li>
+                        <li><a href="#api" class="nav__link">API</a></li>
+                        <li><a href="#folha" class="nav__link">Folha PME</a></li>
+                        <li><a href="#beneficios" class="nav__link">Benefícios</a></li>
+                        <li><a href="#contato" class="nav__link">Contato</a></li>
+                        <li><a href="#assinar" class="btn btn--primary">Assinar R$ 29,90</a></li>
+                    </ul>
+                </nav>
+                <button class="mobile-menu-toggle" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero__content">
+                <div class="hero__text">
+                    <h1 class="hero__title">O <span class="text-primary">Núcleo Financeiro</span> do Ecossistema T</h1>
+                    <p class="hero__subtitle">API de pagamentos integrada, gestão de folha de pagamentos para PMEs e produtos financeiros diferenciados. Centralize toda sua operação financeira em uma única plataforma.</p>
+                    <div class="hero__stats">
+                        <div class="stat">
+                            <span class="stat__number">R$ 125bi</span>
+                            <span class="stat__label">Mercado Total</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat__number">38%</span>
+                            <span class="stat__label">Crescimento/Ano</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat__number">3K TPS</span>
+                            <span class="stat__label">Transações/Segundo</span>
+                        </div>
+                    </div>
+                    <div class="hero__cta">
+                        <a href="#assinar" class="btn btn--primary btn--large">Começar Agora</a>
+                        <a href="#api" class="btn btn--outline btn--large">Ver Documentação API</a>
+                    </div>
+                </div>
+                <div class="hero__visual">
+                    <div class="dashboard-preview">
+                        <div class="dashboard-preview__header">
+                            <div class="preview-dots">
+                                <span></span><span></span><span></span>
+                            </div>
+                            <span class="preview-title">TBANK Dashboard</span>
+                        </div>
+                        <div class="dashboard-preview__content">
+                            <div class="preview-metric">
+                                <i class="fas fa-chart-line"></i>
+                                <div class="metric-info">
+                                    <span class="metric-value">R$ 2.4M</span>
+                                    <span class="metric-label">Volume Processado</span>
+                                </div>
+                            </div>
+                            <div class="preview-metric">
+                                <i class="fas fa-users"></i>
+                                <div class="metric-info">
+                                    <span class="metric-value">15.2K</span>
+                                    <span class="metric-label">Clientes Ativos</span>
+                                </div>
+                            </div>
+                            <div class="preview-chart">
+                                <div class="chart-bar" style="height: 60%"></div>
+                                <div class="chart-bar" style="height: 80%"></div>
+                                <div class="chart-bar" style="height: 100%"></div>
+                                <div class="chart-bar" style="height: 70%"></div>
+                                <div class="chart-bar" style="height: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços Section -->
+    <section id="servicos" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Serviços Financeiros Completos</h2>
+                <p class="section-subtitle">Tudo que sua empresa precisa para gestão financeira moderna</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-card__icon">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <h3 class="service-card__title">API de Pagamentos</h3>
+                    <p class="service-card__description">Processe pagamentos com a API mais robusta do mercado. PIX, cartões, boletos e transferências em uma única integração.</p>
+                    <ul class="service-card__features">
+                        <li>PIX instantâneo 24/7</li>
+                        <li>Cartões de crédito e débito</li>
+                        <li>Boletos bancários</li>
+                        <li>TEF e transferências</li>
+                        <li>Antifraude avançado</li>
+                    </ul>
+                    <a href="#api" class="btn btn--outline">Ver Documentação</a>
+                </div>
+
+                <div class="service-card service-card--featured">
+                    <div class="service-card__badge">Mais Popular</div>
+                    <div class="service-card__icon">
+                        <i class="fas fa-users-cog"></i>
+                    </div>
+                    <h3 class="service-card__title">Gestão Folha PME</h3>
+                    <p class="service-card__description">Complete sua folha de pagamentos com benefícios integrados do ecossistema. Motive e retenha talentos.</p>
+                    <ul class="service-card__features">
+                        <li>Folha de pagamento automatizada</li>
+                        <li>Benefícios TIMOB, TCONSTRU, HOME T</li>
+                        <li>Cartão corporativo</li>
+                        <li>Relatórios fiscais</li>
+                        <li>Compliance trabalhista</li>
+                    </ul>
+                    <a href="#folha" class="btn btn--primary">Saiba Mais</a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-card__icon">
+                        <i class="fas fa-chart-pie"></i>
+                    </div>
+                    <h3 class="service-card__title">Produtos Financeiros</h3>
+                    <p class="service-card__description">Soluções financeiras personalizadas para empresas B2B com foco em rentabilidade e crescimento sustentável.</p>
+                    <ul class="service-card__features">
+                        <li>Conta digital empresarial</li>
+                        <li>Cartão de crédito corporativo</li>
+                        <li>Antecipação de recebíveis</li>
+                        <li>Investimentos automatizados</li>
+                        <li>Consultoria financeira</li>
+                    </ul>
+                    <a href="#produtos" class="btn btn--outline">Explorar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- API Documentation Preview -->
+    <section id="api" class="api-section">
+        <div class="container">
+            <div class="api-content">
+                <div class="api-content__text">
+                    <h2 class="section-title">API Robusta e Documentada</h2>
+                    <p class="section-subtitle">Integre em minutos com nossa API RESTful completa</p>
+
+                    <div class="api-features">
+                        <div class="api-feature">
+                            <i class="fas fa-shield-alt"></i>
+                            <div class="api-feature__content">
+                                <h4>PCI-DSS Compliant</h4>
+                                <p>Máxima segurança para dados de cartão</p>
+                            </div>
+                        </div>
+                        <div class="api-feature">
+                            <i class="fas fa-tachometer-alt"></i>
+                            <div class="api-feature__content">
+                                <h4>99.9% Uptime SLA</h4>
+                                <p>Disponibilidade garantida 24/7</p>
+                            </div>
+                        </div>
+                        <div class="api-feature">
+                            <i class="fas fa-code"></i>
+                            <div class="api-feature__content">
+                                <h4>SDKs Oficiais</h4>
+                                <p>Python, Node.js, PHP, Java</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="api-stats">
+                        <div class="api-stat">
+                            <span class="api-stat__value">&lt;200ms</span>
+                            <span class="api-stat__label">Latência P95</span>
+                        </div>
+                        <div class="api-stat">
+                            <span class="api-stat__value">3K TPS</span>
+                            <span class="api-stat__label">Throughput</span>
+                        </div>
+                        <div class="api-stat">
+                            <span class="api-stat__value">15+</span>
+                            <span class="api-stat__label">Endpoints</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="api-content__code">
+                    <div class="code-window">
+                        <div class="code-header">
+                            <span class="code-language">POST /api/v1/payments</span>
+                            <button class="code-copy">Copiar</button>
+                        </div>
+                        <div class="code-content">
+                            <pre><code>{
+  "amount": 10000,
+  "currency": "BRL",
+  "payment_method": "pix",
+  "description": "Pagamento Ecossistema T",
+  "customer": {
+    "name": "Vanessa Pontes",
+    "email": "vanessa@tgroupsolutions.com",
+    "document": "123.456.789-00"
+  },
+  "metadata": {
+    "platform": "TIMOB",
+    "integration": "ecossistema-t"
+  }
+}</code></pre>
+                        </div>
+                    </div>
+
+                    <div class="code-window">
+                        <div class="code-header">
+                            <span class="code-language">Response 201 Created</span>
+                            <div class="status-indicator status-success"></div>
+                        </div>
+                        <div class="code-content">
+                            <pre><code>{
+  "id": "pay_TBK12345",
+  "status": "pending",
+  "amount": 10000,
+  "pix_code": "00020126360014BR.GOV.BCB.PIX...",
+  "expires_at": "2025-08-27T15:30:00Z",
+  "webhook_url": "https://api.tbank.tech/webhook"
+}</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contato" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2 class="section-title">Fale com Nossa Equipe</h2>
+                    <p class="section-subtitle">Pronto para transformar sua gestão financeira?</p>
+
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <div class="contact-method__content">
+                                <h4>Email Direto</h4>
+                                <a href="mailto:vanessa@tgroupsolutions.com">vanessa@tgroupsolutions.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-phone"></i>
+                            <div class="contact-method__content">
+                                <h4>Suporte 24/7</h4>
+                                <span>+55 11 99999-8888</span>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="contact-method__content">
+                                <h4>Localização</h4>
+                                <span>São Paulo, SP - Brasil</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form id="contactForm" class="form">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Nome Completo</label>
+                            <input type="text" id="name" name="name" class="form-input" required>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" id="email" name="email" class="form-input" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone" class="form-label">Telefone</label>
+                                <input type="tel" id="phone" name="phone" class="form-input">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="company" class="form-label">Empresa</label>
+                            <input type="text" id="company" name="company" class="form-input">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service" class="form-label">Serviço de Interesse</label>
+                            <select id="service" name="service" class="form-select">
+                                <option value="">Selecione um serviço</option>
+                                <option value="api">API de Pagamentos</option>
+                                <option value="folha">Gestão Folha PME</option>
+                                <option value="produtos">Produtos Financeiros</option>
+                                <option value="integracao">Integração Ecossistema</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message" class="form-label">Mensagem</label>
+                            <textarea id="message" name="message" rows="4" class="form-textarea" placeholder="Conte-nos sobre seu projeto..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn--primary btn--full">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__info">
+                    <h3 class="footer__title">TBANK</h3>
+                    <p class="footer__description">Núcleo financeiro do Ecossistema T</p>
+                    <div class="footer__platforms">
+                        <span>Outras plataformas:</span>
+                        <a href="https://timob.tgroupsolutions.tech">TIMOB</a>
+                        <a href="https://tconstru.tgroupsolutions.tech">TCONSTRU</a>
+                        <a href="https://homet.tgroupsolutions.tech">HOME T</a>
+                        <a href="https://tgrowth.tgroupsolutions.tech">TGROWTH</a>
+                    </div>
+                </div>
+                <div class="footer__contact">
+                    <h4>Contato</h4>
+                    <p>vanessa@tgroupsolutions.com</p>
+                    <p>+55 11 99999-8888</p>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2025 TBANK - Ecossistema T. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
